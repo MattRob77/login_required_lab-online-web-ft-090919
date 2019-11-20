@@ -7,6 +7,6 @@ class SessionsController < ApplicationController
     if !params[:name] || params[:name].empty? 
       redirect_to login_path 
     else 
-      
+      session[:name] 
   
 end 
