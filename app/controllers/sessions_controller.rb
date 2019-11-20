@@ -4,6 +4,6 @@ class SessionsController < ApplicationController
   end 
   
   def create 
-    if params !
+    if !params 
   
 end 
